@@ -27,20 +27,17 @@ article {
     padding-top: 30px;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-    float: left;
-    width: 25%;
+.bigBox {
+    display: flex;
+    flex-wrap: wrap;
     padding: 5px;
-    max-width: 300px;
-  }
-  
-  /* Clear floats after image containers */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+}
+.item {
+    display: flex;
+    width: 25%;
+    margin: 5px;
+    height: 300px;
+  }  
 
   h3 {
     color: white;
