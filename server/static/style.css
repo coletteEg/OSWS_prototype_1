@@ -31,10 +31,10 @@ article {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
+    justify-content: space-evenly;
 }
 .item {
     display: flex;
-    width: 25%;
     margin: 5px;
     height: 300px;
   }  
