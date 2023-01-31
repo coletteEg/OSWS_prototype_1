@@ -1,0 +1,49 @@
+#OSLogo {
+    height: 80px;
+    width: 330px;
+    padding-left: 45px;
+}
+
+header {
+    background-color: white;
+}
+
+body {
+    background-color: #1F1F1F;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+#head {
+    color: white;
+    font-size: 40px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    max-width: 300px;
+  }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
