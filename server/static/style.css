@@ -8,7 +8,7 @@ header {
     background-color: white;
 }
 
-body {
+.body {
     background-color: #1F1F1F;
 }
 
@@ -17,6 +17,9 @@ article {
     flex-direction: row;
     justify-content: center;
     padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #head {
@@ -32,11 +35,15 @@ article {
     flex-wrap: wrap;
     padding: 5px;
     justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .item {
     display: flex;
-    margin: 5px;
-    height: 300px;
+    margin: 10px;
+    height: 200px;
+    justify-content: space-evenly;
   }  
 
   h3 {
