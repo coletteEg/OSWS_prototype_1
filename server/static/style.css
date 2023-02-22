@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    margin: 0;
+}
+
 #OSLogo {
     height: 80px;
     width: 330px;
@@ -33,6 +37,7 @@ article {
 .bigBox {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     padding: 5px;
     justify-content: space-evenly;
     width: 80%;
@@ -41,13 +46,14 @@ article {
 }
 .item {
     display: flex;
-    margin: 10px;
-    height: 200px;
-    justify-content: space-evenly;
-  }  
+    gap: .75rem;
+    flex-direction: column;
+    max-width: 10rem;
+    height: auto;
+}
 
-  h3 {
+h3 {
     color: white;
     display: flex;
     justify-content: center;
-  }
+}
